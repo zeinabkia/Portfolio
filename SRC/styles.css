@@ -1,14 +1,62 @@
-
-h1 {
-  font-family: "Special Elite", cursive;
-  background-color: blue;
-  color: whitesmoke !important;
-  padding: 5px;
-  margin: 0px !important;
+:root {
+  --primery-color: rgb(73, 238, 32);
 }
 
-i{
-  font-size: 15px;
-  font-weight: bold;
-
+.navbar {
+  --bs-navbar-padding-y: 0px !important;
+}
+#developerName {
+  color: var(--primery-color) !important;
+  font-size: 18px !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+#menu {
+  color: var(--primery-color) !important;
+  font-size: 23px !important;
+}
+i {
+  color: var(--primery-color) !important;
+}
+i:hover {
+  transform: scale(1.3);
+}
+.nav-link {
+  color: var(--primery-color) !important;
+}
+.profilePic {
+  border-radius: 80px;
+  margin-top: 160px;
+}
+.description {
+  font-family: "Special Elite", cursive;
+  color: whitesmoke !important;
+  padding: 8px;
+  margin-top: 10px !important;
+  font-size: 33px;
+  background: rgb(73, 238, 32, 0.3);
+  border-radius: 4px;
+  text-align: start;
+}
+.developerInfo {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px !important;
+}
+.liLink,
+#liLink {
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-family: "Special Elite", cursive;
+  color: var(--primery-color) !important;
+  background: black;
+  font-weight: 500;
+  padding-left: 15px;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+li:hover {
+  transform: scale(1.07);
 }
