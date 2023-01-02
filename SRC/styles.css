@@ -2,10 +2,27 @@
   --primery-color: rgb(73, 238, 32);
   --shadow-color: rgba(73, 238, 32, 0.562);
 }
+html,
+body {
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.bodyContainor {
+  min-height: 100%;
+  position: relative;
+}
+
 #hr {
   color: var(--primery-color);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar {
   --bs-navbar-padding-y: 0px !important;
@@ -13,8 +30,8 @@
 }
 #developerName {
   color: var(--primery-color) !important;
-  font-size: 26px !important;
-  font-family: "Satisfy", cursive !important;
+  font-size: 28px !important;
+  font-family: "Playball", cursive !important;
   letter-spacing: 1px;
 }
 .navbar-toggler {
@@ -74,9 +91,8 @@ li:hover {
 .aboutDescription {
   letter-spacing: 1px;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 0px !important;
-  padding: 10px;
+  padding-top: 70px;
+  padding-bottom: 0px !important;
   color: whitesmoke;
   font-size: 24px;
   font-weight: 500 !important;
@@ -87,19 +103,6 @@ li:hover {
   color: var(--primery-color);
   font-size: 44px;
   font-weight: bolder;
-}
-
-.footerDescription {
-  letter-spacing: 1px;
-  text-align: center;
-  margin-top: 70px;
-  margin-bottom: 0px !important;
-  padding: 10px;
-  color: whitesmoke;
-  font-size: 20x;
-  font-weight: 500 !important;
-  text-transform: capitalize;
-  font-family: "Petrona", serif;
 }
 
 #aboutrow {
@@ -133,7 +136,8 @@ li:hover {
   border-bottom: 1px groove var(--shadow-color);
 }
 #worksContainer {
-  margin-top: 70px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 .workRow {
   align-items: center;
@@ -144,7 +148,7 @@ li:hover {
   font-family: "Petrona", serif;
   font-size: 46px;
   font-weight: 600;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .workDescription {
@@ -160,7 +164,7 @@ li:hover {
   font-family: "Petrona", serif;
   font-size: 33px;
   font-weight: 500;
-  margin-top: 10px;
+ padding-top: 10px;
 }
 .lunch-link {
   color: var(--primery-color);
@@ -182,7 +186,7 @@ li:hover {
   font-family: "Special Elite", cursive;
   font-size: 30px;
   font-weight: 400;
-  margin-top: 180px;
+  padding-top: 180px;
   font-family: "Petrona", serif;
   background: rgba(0, 0, 0, 0.8);
 }
@@ -222,14 +226,28 @@ li:hover {
 .icolor {
   color: whitesmoke !important;
 }
+
 .footer {
   text-decoration: none;
   margin-bottom: 5px !important;
   padding: 0px !important;
 }
+.footerDescription {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 0px !important;
+  margin-top: 30px !important;
+  padding: 10px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  font-family: "Petrona", serif;
+}
+
 @media (max-width: 700px) {
   #developerName {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 }
 @media (max-width: 550px) {
@@ -245,14 +263,17 @@ li:hover {
   #aboutDescriptionName {
     font-size: 22px;
   }
+  #developerName {
+    font-size: 18px !important;
+  }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 440px) {
   .footerDescription {
     font-size: 16px;
   }
   #developerName {
-    font-size: 15px !important;
+    font-size: 16px !important;
   }
   #liLink,
   .liLink {
@@ -280,9 +301,9 @@ li:hover {
   }
 }
 
-@media (max-width: 266px) {
+@media (max-width: 293px) {
   #developerName {
-    font-size: 13px !important;
+    font-size: 14px !important;
     letter-spacing: 0px;
   }
   #liLink,

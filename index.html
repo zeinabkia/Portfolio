@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Petrona:wght@300&family=Satisfy&family=Special+Elite&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Petrona:wght@300&family=Playball&family=Special+Elite&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="SRC/styles.css" />
@@ -39,156 +39,166 @@
     }
   </style>
   <body>
-    <nav class="navbar navbar-dark bg fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html" title="Home">
-          <span id="developerName">
-            Zeinab S.Kia <sup><small>a Front-End Developer </small></sup>
-          </span></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar"
-        >
-          <i id="menu" class="fa-regular fa-square-caret-down"></i>
-        </button>
-        <div
-          class="offcanvas offcanvas-end text-bg-dark"
-          tabindex="-1"
-          id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <button
-              type="button"
-              class="btn-close btn-close-white"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="Home"
-                  href="/index.html"
-                  target="_blank"
-                >
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="about"
-                  href="/about.html"
-                  target="_blank"
-                >
-                  About Me
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="works"
-                  href="/works.html"
-                  target="_blank"
-                >
-                  Works
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="contact"
-                  href="/contact.html"
-                  target="_blank"
-                >
-                  Contact Me
-                </a>
-              </li>
-            </ul>
+    <div class="bodyContainor">
+      <nav class="navbar navbar-dark bg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html" title="Home">
+            <span id="developerName">
+              Zeinab S.Kia <sup><small>a Front-End Developer </small></sup>
+            </span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <i id="menu" class="fa-regular fa-square-caret-down"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="Home"
+                    href="/index.html"
+                    target="_blank"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="about"
+                    href="/about.html"
+                    target="_blank"
+                  >
+                    About Me
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="works"
+                    href="/works.html"
+                    target="_blank"
+                  >
+                    Works
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="contact"
+                    href="/contact.html"
+                    target="_blank"
+                  >
+                    Contact Me
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <div class="container d-flex flex-column mb-3 justify-content-end mx-20">
-      <img
-        src="images/MyPic.jpg"
-        class="profilePic"
-        alt="profilePic"
-        width="150"
-      />
-      <h3 class="description">
-        Hi<i class="fa-solid fa-hand-sparkles"></i> I'm Zainab S.Kia
-        <i class="fa-solid fa-arrow-right-arrow-left"></i> A Master Engineer in
-        Computer Networks Who L<i class="fa-solid fa-heart"></i>ves to Code and
-        Design Webpages.
-      </h3>
-      <div class="linktoOtherPages">
-        <li class="liLink">
-          <i class="fa-solid fa-right-long"></i
-          ><a id="liLink" href="/about.html" target="_blank" title="About">
-            More About Me
-          </a>
-        </li>
-        <li class="liLink">
-          <i class="fa-solid fa-right-long"></i
-          ><a id="liLink" href="/works.html" target="_blank" title="works">
-            My Works
-          </a>
-        </li>
-        <li class="liLink">
-          <i class="fa-solid fa-right-long"></i
-          ><a id="liLink" href="/contact.html" target="_blank" title="Contact">
-            Get in Touch with Me
-          </a>
-        </li>
+      <div class="container d-flex flex-column mb-3 justify-content-end mx-20">
+        <img
+          src="images/MyPic.jpg"
+          class="profilePic"
+          alt="profilePic"
+          width="150"
+        />
+        <h3 class="description">
+          Hi<i class="fa-solid fa-hand-sparkles"></i> I'm Zainab S.Kia
+          <i class="fa-solid fa-arrow-right-arrow-left"></i> A Master Engineer
+          in Computer Networks Who L<i class="fa-solid fa-heart"></i>ves to Code
+          and Design Webpages.
+        </h3>
+        <div class="linktoOtherPages">
+          <li class="liLink">
+            <i class="fa-solid fa-right-long"></i
+            ><a id="liLink" href="/about.html" target="_blank" title="About">
+              More About Me
+            </a>
+          </li>
+          <li class="liLink">
+            <i class="fa-solid fa-right-long"></i
+            ><a id="liLink" href="/works.html" target="_blank" title="works">
+              My Works
+            </a>
+          </li>
+          <li class="liLink">
+            <i class="fa-solid fa-right-long"></i
+            ><a
+              id="liLink"
+              href="/contact.html"
+              target="_blank"
+              title="Contact"
+            >
+              Get in Touch with Me
+            </a>
+          </li>
+        </div>
       </div>
-    </div>
-    <div class="footer footerDescription">
-      <a class="footer" href="/index.html" target="_blank" title="Home"
-        ><i class="fa-solid fa-house"></i>
-      </a>
-      <a class="footer" href="/about.html" target="_blank" title="About"
-        ><i class="fa-solid fa-user"></i
-      ></a>
-      <a class="footer" href="/works.html" target="_blank" title="Works">
-        <i class="fa-solid fa-code"></i>
-      </a>
-      <a
-        class="footer"
-        href="https://github.com/zeinabkia?tab=repositories"
-        target="_blank"
-        title="GitHub"
-      >
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a
-        class="footer"
-        href="https://www.instagram.com/zeiinabkiia/"
-        target="_blank"
-        title="Instagram"
-      >
-        <i class="fa-brands fa-instagram"></i>
-      </a>
+      <br/>
+      <footer>
+        <div class="footer footerDescription">
+          <a class="footer" href="/index.html" target="_blank" title="Home"
+            ><i class="fa-solid fa-house"></i>
+          </a>
+          <a class="footer" href="/about.html" target="_blank" title="About"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+          <a class="footer" href="/works.html" target="_blank" title="Works">
+            <i class="fa-solid fa-code"></i>
+          </a>
+          <a
+            class="footer"
+            href="https://github.com/zeinabkia?tab=repositories"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            class="footer"
+            href="https://www.instagram.com/zeiinabkiia/"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
 
-      <a
-        class="footer"
-        href="https://t.me/ZeinabSKia"
-        target="_blank"
-        title="Telegram"
-      >
-        <i class="fa-brands fa-telegram"></i>
-      </a>
-      <a class="footer" href="/contact.html" target="_blank" title="Email">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
+          <a
+            class="footer"
+            href="https://t.me/ZeinabSKia"
+            target="_blank"
+            title="Telegram"
+          >
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a class="footer" href="/contact.html" target="_blank" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
