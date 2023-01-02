@@ -27,6 +27,7 @@ footer {
 .navbar {
   --bs-navbar-padding-y: 0px !important;
   background: black !important;
+  box-shadow: var(--shadow-color) 0px 0px 10px 0;
 }
 #developerName {
   color: var(--primery-color) !important;
