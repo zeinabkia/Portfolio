@@ -108,7 +108,7 @@ li:hover {
 #aboutrow {
   align-items: flex-end;
 }
-.responsiveCertificateDes{
+.responsiveCertificateDes {
   color: whitesmoke;
 }
 .plusCertificateDes {
@@ -149,7 +149,7 @@ li:hover {
   color: var(--primery-color) !important;
   text-align: center;
   font-family: "Petrona", serif;
-  font-size: 46px;
+  font-size: 47px;
   font-weight: 600;
   padding-top: 10px;
 }
@@ -167,7 +167,7 @@ li:hover {
   font-family: "Petrona", serif;
   font-size: 33px;
   font-weight: 500;
- padding-top: 10px;
+  padding-top: 10px;
 }
 .lunch-link {
   color: var(--primery-color);
