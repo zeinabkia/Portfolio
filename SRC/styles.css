@@ -2,11 +2,11 @@
   --primery-color: rgb(73, 238, 32);
   --shadow-color: rgba(73, 238, 32, 0.562);
 }
- #hr{
+#hr {
   color: var(--primery-color);
-  margin-top: 20px;
-  margin-bottom: 20px;
- }
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .navbar {
   --bs-navbar-padding-y: 0px !important;
   background: black !important;
@@ -114,40 +114,39 @@ li:hover {
   font-size: 20px;
   letter-spacing: 2px;
 }
-#certificateDes{
-  border-left: 1px groove var(--shadow-color); 
+#certificateDes {
+  border-left: 1px groove var(--shadow-color);
   border-bottom: 1px groove var(--shadow-color);
 }
-#worksContainer{
+#worksContainer {
   margin-top: 70px;
 }
-.workRow{
+.workRow {
   align-items: center;
 }
-.worksTitle{
+.worksTitle {
   color: var(--primery-color) !important;
   text-align: center;
-   font-family: "Petrona", serif;
-   font-size: 46px;
-   font-weight: 600;
-   margin-top: 10px;
-
+  font-family: "Petrona", serif;
+  font-size: 46px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
-.workDescription{
-   font-family: "Petrona", serif;
-   color:whitesmoke !important;
-   font-size: 24px;
-   text-align: center;
-   align-items: flex-end; 
-}
-.worksDesTitle{
-   color: var(--primery-color) !important;
+.workDescription {
+  font-family: "Petrona", serif;
+  color: whitesmoke !important;
+  font-size: 24px;
   text-align: center;
-   font-family: "Petrona", serif;
-   font-size: 33px;
-   font-weight: 500;
-   margin-top: 10px;
+  align-items: flex-end;
+}
+.worksDesTitle {
+  color: var(--primery-color) !important;
+  text-align: center;
+  font-family: "Petrona", serif;
+  font-size: 33px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 .lunch-link {
   color: var(--primery-color);
@@ -155,23 +154,67 @@ li:hover {
   text-decoration: none;
   border-radius: 6px;
   border: 1px solid var(--primery-color);
-   font-family: "Petrona", serif;
-   letter-spacing: 1px;
-  align-items: center;  
-   text-align: center;
-   font-size: 22px;
- }
- .lunch-link:hover{
- box-shadow: 0px 0px 8px 0px var(--shadow-color);
+  font-family: "Petrona", serif;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+}
+.lunch-link:hover {
+  box-shadow: 0px 0px 8px 0px var(--shadow-color);
+}
+.contactTitle {
+  color: whitesmoke;
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 160px;
+  font-family: "Petrona", serif;
+  background: rgba(0, 0, 0, 0.8);
+}
+#contactTitle{
+ color: whitesmoke;
+  font-family: "Special Elite", cursive;
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 0px;
+  font-family: "Petrona", serif;
+  background: rgba(0, 0, 0, 0.8);
+  line-height: 70%;
+}
+.contactLink {
+  color: whitesmoke;
+  font-family: "Petrona", serif;
+  font-size: 24px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0px 30px;
+}
+.acontactLink {
+  color: var(--primery-color) !important;
+  font-family: "Petrona", serif;
+  font-size: 23px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+.acontactLink:hover {
+  transform: scale(1.05);
+}
 
- }
+.acontactLink:visited {
+  color: var(--shadow-color);
+}
+.icolor{
+  color: whitesmoke !important;
+}
 .footer {
   text-decoration: none;
   margin-bottom: 5px !important;
   padding: 0px !important;
 }
 @media (max-width: 700px) {
- #developerName {
+  #developerName {
     font-size: 18px !important;
   }
 }
@@ -188,7 +231,6 @@ li:hover {
   #aboutDescriptionName {
     font-size: 22px;
   }
- 
 }
 
 @media (max-width: 390px) {
@@ -199,7 +241,7 @@ li:hover {
   .liLink {
     font-size: 13px !important;
   }
- 
+
   #aboutDescriptionName {
     font-size: 20px;
   }
@@ -207,7 +249,20 @@ li:hover {
   .basicCertificateDes {
     font-size: smaller;
   }
+   #contactTitle {
+    font-size: 40px;
+   } 
+   .contactTitle{
+    font-size: 16px;
+   } 
+   .contactLink {
+    font-size: 16px;
+   } 
+   .acontactLink {
+font-size: 15px;
+   }
 }
+
 @media (max-width: 266px) {
   #developerName {
     font-size: 13px !important;
