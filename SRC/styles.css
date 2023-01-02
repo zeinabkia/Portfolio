@@ -108,7 +108,9 @@ li:hover {
 #aboutrow {
   align-items: flex-end;
 }
-
+.responsiveCertificateDes{
+  color: whitesmoke;
+}
 .plusCertificateDes {
   color: whitesmoke;
 }
