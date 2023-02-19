@@ -89,37 +89,42 @@ li:hover {
   transform: scale(1.05);
 }
 
-.aboutDescription {
-  letter-spacing: 1px;
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 0px !important;
-  color: whitesmoke;
-  font-size: 24px;
-  font-weight: 500 !important;
-  text-transform: capitalize;
-  font-family: "Petrona", serif;
-}
 #aboutDescriptionName {
-  color: var(--primery-color);
   font-size: 44px;
   font-weight: bolder;
+  margin-bottom: 5px;
+  color: whitesmoke;
 }
 
+.descriptionContex {
+  color: whitesmoke;
+  font-size: larger;
+  text-transform: capitalize;
+  font-weight: 500 !important;
+  font-family: "Petrona", serif;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: -2px 2px 5px rgba(6, 5, 99, 0.575);
+  text-align: center;
+}
 #aboutrow {
   align-items: flex-end;
 }
 .responsiveCertificateDes {
   color: whitesmoke;
+  font-weight: 600;
 }
 .plusCertificateDes {
   color: whitesmoke;
+  font-weight: 600;
 }
 .reactCertificateDes {
   color: whitesmoke;
+  font-weight: 600;
 }
 .col-6 {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Petrona", serif;
 }
 .img-fluid {
@@ -127,17 +132,20 @@ li:hover {
   box-shadow: 0px 0px 5px 0px var(--shadow-color);
 }
 .img-fluid:hover {
-  filter: brightness(0.5);
+transform: scale(1.05);
+fill-opacity: calc(0.5);
 }
 #skills {
-  color: var(--primery-color);
+  color: rgb(167, 166, 252);
   font-size: 20px;
   letter-spacing: 2px;
+  font-weight: bolder !important;
 }
 #certificateDes {
-  border-left: 1px groove var(--shadow-color);
-  border-bottom: 1px groove var(--shadow-color);
+  border-left: 1px groove rgba(6, 5, 99, 0.575);
+  border-bottom: 1px groove rgba(6, 5, 99, 0.575);
   border-radius: 8px;
+  box-shadow: -2px 2px 5px rgba(6, 5, 99, 0.575);
 }
 #worksContainer {
   padding-top: 70px;
@@ -146,18 +154,10 @@ li:hover {
 .workRow {
   align-items: center;
 }
-.worksTitle {
-  color: var(--primery-color) !important;
-  text-align: center;
-  font-family: "Petrona", serif;
-  font-size: 47px;
-  font-weight: 600;
-  padding-top: 10px;
-}
 
 .workDescription {
   font-family: "Petrona", serif;
-  color: whitesmoke !important;
+  color: white !important;
   font-size: 24px;
   text-align: center;
   align-items: flex-end;
@@ -167,7 +167,7 @@ li:hover {
   text-align: center;
   font-family: "Petrona", serif;
   font-size: 33px;
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 10px;
 }
 
@@ -176,12 +176,13 @@ li:hover {
   padding: 15px;
   text-decoration: none;
   border-radius: 6px;
-  border: 1px solid var(--primery-color);
+  border: 1px double var(--primery-color) !important;
   font-family: "Petrona", serif;
   letter-spacing: 1px;
   align-items: center;
   text-align: center;
   font-size: 22px;
+  font-weight: 600;
 }
 .lunch-link:hover {
   box-shadow: 0px 0px 8px 0px var(--shadow-color);

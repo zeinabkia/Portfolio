@@ -34,10 +34,11 @@
   </head>
   <style>
     body {
-      background-color: #212529 !important;
-    }
-    .navbar {
-      box-shadow: var(--shadow-color) 0px 0px 10px 0;
+      background: radial-gradient(
+        circle at -1% 57.5%,
+        rgb(19, 170, 82) 0%,
+        rgb(0, 102, 43) 90%
+      ) !important;
     }
   </style>
   <body>
@@ -45,10 +46,8 @@
       <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html" title="Home">
-            <span id="developerName">
-              Zeinab S.Kia <sup><small>Front-End Developer </small></sup>
-            </span></a
-          >
+            <span id="developerName"> </span
+          ></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -116,7 +115,6 @@
         </div>
       </nav>
       <div class="container mb-5" id="worksContainer">
-        <p class="worksTitle">My Works <i class="fa-solid fa-code"></i></p>
         <hr id="hr" />
         <div class="container">
           <div class="row workRow">
